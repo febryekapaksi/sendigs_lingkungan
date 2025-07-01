@@ -38,8 +38,8 @@
 					?>
 				</select>
 			</div>
-			<!-- <label class='label-control col-sm-2'><b>Cost Center <span class='text-red'>*</span></b></label>
-			<div class='col-sm-4'>
+			<label hidden class='label-control col-sm-2'><b>Cost Center <span class='text-red'>*</span></b></label>
+			<div class='col-sm-4' hidden>
 				<select name='cost_center' id='cost_center' class='form-control input-md chosen-select'>
 					<option value="">- Cost Center -</option>
 					<?php
@@ -48,7 +48,7 @@
 					}
 					?>
 				</select>
-			</div> -->
+			</div>
 		</div>
 		<div class='form-group row'>
 			<label class='label-control col-sm-2'><b>Nilai Asset <span class='text-red'>*</span></b></label>
